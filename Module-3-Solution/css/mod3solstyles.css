@@ -119,3 +119,9 @@ h1 {
 #chicken:hover, #beef:hover, #sushi:hover {
 	box-shadow: 0 5px 15px 5px #cccccc;
 }
+
+#panel-foot {
+	text-align: center;
+	font-size: 0.5em;
+	font-family: Calibri ;
+}
