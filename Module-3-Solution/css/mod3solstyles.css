@@ -1,0 +1,121 @@
+body {
+	font-size: 25px;
+	font-family: 'Kaushan Script', cursive;
+	background-color: #2DA8D8FF;
+	color: black;
+}
+/******header start ******/
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: red;
+	padding: 30px;
+}
+
+.navbar-brand {
+	padding-top:  15px;
+}
+
+.navbar-brand h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-family: "lora" serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 0.75;
+}
+
+.navbar-brand p{
+	color: white;
+	font-size: .8em;
+	margin-top: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	font-family: "lora" serif;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 1px #222;
+	line-height: 0.75;
+}
+
+#nav-list {
+	margin-top: 15px;
+}
+
+#nav-list a {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+#nav-list a:hover {
+	background: 	#4169E1;
+}
+
+#nav-list a span {
+	font-size: .8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -10px;
+}
+
+/*******main content start **********/
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+.container h2 {
+	text-align: center;
+}
+
+#chicken {
+	margin-top: 50px;
+	width: 100%;
+	font-family: Georgia,sans-serif;
+	margin-bottom: 10px;
+	background-color: black;
+	color: white;
+	font-size: .8em;
+}
+
+#beef , #sushi {
+	width: 100%;
+	font-family: Georgia,sans-serif;
+	margin-bottom: 10px;
+	margin-top: 25px;
+	background-color: black;
+	color: white;
+	font-size: .8em;
+}
+
+#chicken:hover, #beef:hover, #sushi:hover {
+	box-shadow: 0 5px 15px 5px #cccccc;
+}
